@@ -1,0 +1,15 @@
+Deploying the Multilingual Translator Chatbot on a Website.
+
+To integrate the chatbot into a website, add the following script anywhere in the <body> tag of your HTML file:
+
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "db8645a7-41e7-41b7-a686-737432c85420",
+        apiHost: "http://localhost:3000",
+    })
+</script>
+
+NOTE:
+
+Use OpenAI API key (for GPT-4o Mini integration)
