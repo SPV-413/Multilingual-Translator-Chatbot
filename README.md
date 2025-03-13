@@ -18,13 +18,13 @@ Ensure you have the following installed:
 - OpenAI API key (for GPT-4o Mini integration)
   
 ### 2. Simple setup using PNPM:
-Clone the repository: 
+- Clone the repository: 
 git clone https://github.com/FlowiseAI/Flowise.git
-Go into repository folder: 
+- Go into repository folder: 
 cd Flowise
-Install all dependencies of all modules: 
+- Install all dependencies of all modules: 
 pnpm install
-Build the code: 
+- Build the code: 
 pnpm build
 
 ### 3. Start Flowise
